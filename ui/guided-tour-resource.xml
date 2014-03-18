@@ -1,39 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<resource id="gtr100001" name="Guided Tour Resource 100001">
-    <dialog id="diag0001" lcaguid="TBD" lcaversion="TBD" language="en">
-        <uigroup id="uigroup0001">
-            <textbox id="textbox0001">
-                <data>This should talk a bit about XYZ. Assuming only text is allowed, but perhaps rich text could be generated from XML.</data>
-            </textbox>
-            <title id="title0001">
-                <data>XYZ Info</data>
-            </title>
-        </uigroup>
-        <uigroup id="uigroup0002">
-            <textbox id="textbox0001">
-                <data>This should talk a bit about safety precautions. Assuming only text is allowed, but perhaps rich text could be generated from XML.</data>
-            </textbox>
-            <title id="title0001">
-                <data>Precautions Info</data>
-            </title>
-        </uigroup>
-    </dialog>
-    <dialog id="diag0002" lcaguid="TBD" lcaversion="TBD" language="en">
-        <uigroup id="uigroup0001">
-            <textbox id="textbox0001">
-                <data>Hello World 2 Text</data>
-            </textbox>
-            <title id="title0001">
-                <data>Hello World 2 Title</data>
-            </title>
-        </uigroup>
-        <uigroup id="uigroup0002">
-            <textbox id="textbox0001">
-                <data>Hello World 3 Text</data>
-            </textbox>
-            <title id="title0001">
-                <data>Hello World 3 Title</data>
-            </title>
-        </uigroup>
-    </dialog>    
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<resource id="gtr100001" name="Guided Tour Resource 100001" lcaguid="TBD" lcaversion="TBD" language="en" state="TBD">
+  <dialog id="diag0001">
+    <uigroup id="uigroup0001">
+      <control id="textbox0001">
+        <data>This should talk a bit about XYZ. Assuming only text is allowed, but perhaps rich text could be generated from XML.</data>
+      </control>
+      <control id="title0001">
+        <data>XYZ Info</data>
+      </control>
+    </uigroup>
+    <uigroup id="uigroup0002">
+      <control id="textbox0001">
+        <data>This should talk a bit about safety precautions. Assuming only text is allowed, but perhaps rich text could be generated from XML.</data>
+      </control>
+      <control id="title0001">
+        <data>Precautions Info</data>
+      </control>
+    </uigroup>
+  </dialog>
+  <dialog id="diag0002">
+    <uigroup id="uigroup0003">
+      <control id="textbox0001">
+        <data>Hello World 2 Text</data>
+      </control>
+      <control id="title0002">
+        <data>Hello World 2 Title</data>
+      </control>
+    </uigroup>
+    <uigroup id="uigroup0004">
+      <control id="textbox0001">
+        <data>Hello World 3 Text</data>
+      </control>
+      <control id="title0003">
+        <data>Hello World 3 Title</data>
+      </control>
+    </uigroup>
+  </dialog>
 </resource>

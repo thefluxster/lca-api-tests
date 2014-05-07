@@ -1,43 +1,3 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8"?>
-<resource id="gtr100001" name="Guided Tour Resource 100001" lcaguid="TBD" lcaversion="TBD" language="en">
-    <dialog id="diag0001">
-        <section id="sect0001">
-            <textbox id="textbox0001">
-                <data>This should talk a bit about XYZ. Assuming only text is allowed, but perhaps rich text could be generated from XML.</data>
-            </textbox>
-            <title id="title0001">
-                <data>XYZ Info</data>
-            </title>
-        </section>
-        <section id="sect0002">
-            <textbox id="textbox0001">
-                <data>This should talk a bit about safety precautions. Assuming only text is allowed, but perhaps rich text could be generated from XML.</data>
-            </textbox>
-            <title id="title0001">
-                <data>Precautions Info</data>
-            </title>
-        </section>
-    </dialog>
-    <dialog id="diag0002">
-        <section id="sect0001">
-            <textbox id="textbox0001">
-                <data>Hello World 2 Text</data>
-            </textbox>
-            <title id="title0001">
-                <data>Hello World 2 Title</data>
-            </title>
-        </section>
-        <section id="sect0002">
-            <textbox id="textbox0001">
-                <data>Hello World 3 Text</data>
-            </textbox>
-            <title id="title0001">
-                <data>Hello World 3 Title</data>
-            </title>
-        </section>
-    </dialog>
-=======
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <resource id="gtr100001" name="Guided Tour Resource 100001" lcaguid="TBD" lcaversion="TBD" language="en" state="TBD">
   <dialog id="diag0001">
@@ -76,5 +36,4 @@
       </control>
     </uigroup>
   </dialog>
->>>>>>> eb291d0d2d8a8a61a48a0c86155bd62037092aa4
 </resource>
